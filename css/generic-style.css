@@ -1,0 +1,144 @@
+/*Text Color*/
+.text-color-primary {
+    color: var(--primary-color);
+}
+
+.text-color-white {
+    color: #FFF;
+}
+
+.text-color-grey {
+    color: var(--color-grey);
+}
+
+/*Special Title*/
+.special-title h2 {
+    font-weight: bold;
+}
+
+.special-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.special-title .left,
+.right {
+    margin-bottom: 10px;
+}
+
+.special-title .left {
+    margin-right: 20px;
+}
+
+.special-title .right {
+    margin-left: 20px;
+}
+
+/*Section Padding*/
+.section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Btn*/
+.btn-color-primary {
+    background-color: var(--primary-color);
+    color: #FFF;
+    border: 1px solid var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-color-primary:hover {
+    background-color: #FFF;
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
+}
+
+.btn-color-primary-inverse {
+    background-color: #FFF;
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
+    font-weight: bold;
+}
+
+.btn-color-primary-inverse:hover {
+    background-color: var(--primary-color);
+    color: #FFF;
+    border: 1px solid var(--primary-color);
+}
+
+/*Top Icon*/
+.top-icon {
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 0;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.top-icon i {
+    color: #FFF;
+    line-height: 40px;
+    transform: rotate(-45deg);
+}
+
+/*Position Relative*/
+.pos-relative {
+    position: relative;
+}
+
+/*Centralize*/
+.centralize{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/*Triangle*/
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+}
+
+/*Utilities List*/
+.util-list{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.util-list li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #e4e4e4;
+    text-align: center;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    transition: var(--default-trans);
+}
+
+.util-list li a i{
+    color: var(--primary-color);
+    line-height: 40px;
+    transform: rotate(-45deg);
+    transition: var(--default-trans);
+}
+
+.util-list li a:hover {
+    background-color: var(--color-black);
+}
+
+.util-list li a:hover i {
+    color: #FFF;
+}
