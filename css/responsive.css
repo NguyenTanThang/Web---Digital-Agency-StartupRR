@@ -64,3 +64,21 @@
         background-color: #fff;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .nav-link{
+        padding: 0;
+        border-bottom: none !important;
+        font-size: 0.9rem;
+    }
+
+    .navbar-nav li a{
+        padding: 10px 20px;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+    
+    .navbar-brand h2{
+        padding-top: 5px;
+    }
+}
